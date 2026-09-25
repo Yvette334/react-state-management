@@ -1,4 +1,4 @@
-import React, {createContext, useContext, useState, ReactNode} from "react";
+import {createContext, useContext, useState,type ReactNode} from "react";
 import { LIGHT_THEME, DARK_THEME } from "../constants/theme"
 
 type Theme = typeof LIGHT_THEME | typeof DARK_THEME;
