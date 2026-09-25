@@ -2,7 +2,7 @@ import { useReducer, useState } from "react"
 import { taskReducer } from "../reducers/taskReducer"
 import { useTheme } from "../context/ThemeContext";
 import { LIGHT_THEME } from "../constants/theme";
-import style from "./TaskManager.module.css";
+import styles from "./TaskManager.module.css"
 
 const TaskManager = () => {
     const [tasks, dispatch] = useReducer(taskReducer, []);
